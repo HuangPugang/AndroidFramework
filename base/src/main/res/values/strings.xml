@@ -1,0 +1,35 @@
+<resources>
+	<string name="app_name">Base</string>
+
+	<!--环境选择-->
+	<string name="choose_a_environment">选择环境</string>
+	<string name="environment_production">生产环境</string>
+	<string name="environment_stage">Stage环境</string>
+	<string name="environment_test">dev环境</string>
+	<string name="environment_qa">qa环境</string>
+	<string name="selected">√</string>
+	<!--uc-->
+	<string name="ucrop_label_original">原始比例</string>
+	<string name="ucrop_label_edit_photo">裁剪</string>
+	<string name="ucrop_menu_crop">裁剪</string>
+
+
+	<string name="app_amount_float_text">&#165;%.2f</string>
+	<string name="app_amount1_float_text">&#165;%.1f</string>
+	<string name="app_amount_int_text">&#165;%.0f</string>
+	<string name="app_int_text">%.0f</string>
+	<string name="app_float1_text">%.1f</string>
+	<string name="app_float2_text">%.2f</string>
+	<string name="app_int_yuan_text">%.0f元</string>
+	<string name="app_float2_yuan_text">%.2f元</string>
+	<string name="app_str_yuan">%s元</string>
+
+	<string name="app_select_img">请选择图片</string>
+	<string name="app_save">保存</string>
+	<string name="app_img_crop">图片裁剪</string>
+
+	<string name="app_scan_open">扫码解锁</string>
+	<string name="app_scan_text">先按车锁上的启动键再扫描二维码</string>
+
+	<string name="app_exit_warning">再按一次退出奇迹单车</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bg_ripple"
+             android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="48dp">
+
+		<ImageView
+			android:id="@+id/iv_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/activity_margin"
+			android:src="@drawable/ic_navi_back"/>
+
+		<TextView
+			android:id="@+id/tv_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/activity_margin_half"
+			android:layout_toRightOf="@+id/iv_icon"
+			android:text="设置"
+			android:textSize="@dimen/font_normal"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="@dimen/activity_margin"
+			android:layout_marginRight="@dimen/activity_margin"
+			android:layout_toRightOf="@+id/tv_title"
+			android:gravity="center_vertical|right">
+
+			<org.hpdroid.base.view.PartClickableTextView
+				android:id="@+id/pctv_sub_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="@dimen/activity_margin_half"
+				android:text="010"
+				android:textSize="@dimen/font_normal"/>
+
+			<ImageView
+				android:id="@+id/iv_arrow"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/arrow_icon"/>
+		</LinearLayout>
+
+		<View
+			android:id="@+id/view_padding"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/divider_height"
+			android:layout_alignParentBottom="true"
+			android:layout_marginLeft="@dimen/activity_margin"
+			android:background="@color/divider_color"/>
+
+		<View
+			android:id="@+id/view_full"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/divider_height"
+			android:layout_alignParentBottom="true"
+			android:background="@color/divider_color"
+			android:visibility="gone"/>
+	</RelativeLayout>
+</FrameLayout>

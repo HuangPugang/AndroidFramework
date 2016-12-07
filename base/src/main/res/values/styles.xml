@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--activity黑色主题-->
+	<style name="AppThemeBlack" parent="BaseThemeBlack" />
+
+	<!--activity白色主题-->
+	<!--<style name="AppThemeWhite" parent="BaseThemeWhite" />-->
+
+	<!-- Base application theme. -->
+	<style name="BaseThemeBlack" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorAccent</item>
+		<item name="colorPrimaryDark">@color/colorAccent</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="alertDialogTheme">@style/AppTheme.Dialog.Alert</item>
+		<item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+		<item name="actionMenuTextColor">@color/white</item>
+		<item name="android:fitsSystemWindows">true</item>
+	</style>
+
+	<style name="BaseThemeWhite" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/main_color</item>
+		<!--状态栏颜色-->
+		<item name="colorPrimaryDark">@color/black</item>
+		<!--edittext闪动的颜色-->
+		<item name="colorAccent">@color/main_color</item>
+		<item name="alertDialogTheme">@style/AppTheme.Dialog.Alert</item>
+		<item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+		<item name="actionMenuTextColor">@color/toolbar_black_color</item>
+		<item name="android:fitsSystemWindows">true</item>
+	</style>
+
+	<style name="AppTheme.NoActionBarBlack" parent="AppThemeBlack">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+
+	<style name="AppTheme.NoActionBarWhite" parent="AppThemeWhite">
+		<item name="android:fitsSystemWindows">true</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+		<item name="colorPrimary">@color/main_color</item>
+		<item name="colorPrimaryDark">@color/main_color</item>
+		<item name="colorAccent">@color/main_color</item>
+	</style>
+
+	<style name="MenuTextStyle" parent="@style/TextAppearance.AppCompat.Menu">
+		<item name="android:textSize">@dimen/font_normal</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+
+
+
+	<!--Toolbar黑色主题-->
+	<style name="ToolbarStyleBlack" parent="@style/Widget.AppCompat.Toolbar" >
+		<item name="navigationIsButton">true</item>
+		<item name="navigationLeftIcon">@drawable/ic_back_white</item>
+		<item name="navigationText">""</item>
+		<item name="navigationTextAppearance">@style/BackTextStyle</item>
+		<item name="titleTextAppearance">@style/TitleTextBlackStyle</item>
+		<item name="navigationBackground">@drawable/selector_button</item>
+		<item name="android:background">@drawable/bg_toolbar_black</item>
+		<item name="actionMenuTextColor">@color/toolbar_white_color</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">?attr/actionBarSize</item>
+		<!-- 设置该属性解决空白部分-->
+		<!--<item name="contentInsetStart">0dp</item>-->
+		<!--<item name="contentInsetEnd">0dp</item>-->
+	</style>
+
+	<!--Toolbar白色主题-->
+	<style name="ToolbarStyleWhite" parent="@style/Widget.AppCompat.Toolbar">
+		<item name="navigationIsButton">true</item>
+		<item name="navigationLeftIcon">@drawable/ic_back_black</item>
+		<item name="navigationText">""</item>
+		<item name="navigationTextAppearance">@style/BackTextStyle</item>
+		<item name="titleTextAppearance">@style/TitleTextStyle</item>
+		<item name="navigationBackground">@drawable/selector_button</item>
+		<item name="android:background">@drawable/bg_toolbar</item>
+		<item name="actionMenuTextColor">@color/toolbar_black_color</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">?attr/actionBarSize</item>
+		<!-- 设置该属性解决空白部分-->
+		<!--<item name="contentInsetStart">0dp</item>-->
+		<!--<item name="contentInsetEnd">0dp</item>-->
+	</style>
+
+
+
+
+	<style name="BackTextStyle">
+		<item name="android:textSize">@dimen/font_normal</item>
+		<item name="android:textColor">@color/main_color</item>
+	</style>
+
+	<style name="TitleTextStyle">
+		<item name="android:textSize">@dimen/font_large_x</item>
+		<item name="android:textColor">@color/toolbar_black_color</item>
+	</style>
+
+	<style name="TitleTextBlackStyle">
+		<item name="android:textSize">@dimen/font_large_x</item>
+		<item name="android:textColor">@color/toolbar_white_color</item>
+	</style>
+
+
+	<!--注册，登录等按钮-->
+	<style name="BtnNormalStyle">
+		<item name="android:layout_marginRight">@dimen/activity_margin</item>
+		<item name="android:layout_marginLeft">@dimen/activity_margin</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">48dp</item>
+		<item name="android:drawablePadding">@dimen/padding_small</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/selector_normal_btn_text</item>
+		<item name="android:background">@drawable/selector_normal_btn</item>
+		<item name="android:textSize">@dimen/font_normal_x</item>
+	</style>
+
+	<!--镂空按钮-->
+	<style name="BtnHollowStyle">
+		<item name="android:layout_marginRight">@dimen/activity_margin</item>
+		<item name="android:layout_marginLeft">@dimen/activity_margin</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">48dp</item>
+		<item name="android:drawablePadding">@dimen/padding_small</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/selector_hollow_btn_text</item>
+		<item name="android:background">@drawable/selector_hollow_btn</item>
+		<item name="android:textSize">@dimen/font_normal_x</item>
+	</style>
+
+	<!--计时器-->
+	<style name="BtnCountDownStyle">
+
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:paddingLeft">@dimen/activity_margin_half</item>
+		<item name="android:paddingRight">@dimen/activity_margin_half</item>
+		<item name="android:textColor">@color/text_color_count_down</item>
+		<item name="android:textSize">@dimen/font_normal</item>
+		<item name="android:minWidth">100dp</item>
+	</style>
+
+	<!--图片选择器-->
+	<declare-styleable name="CropImageView">
+		<attr name="guidelines">
+			<enum name="on" value="2"/>
+			<enum name="onTouch" value="1"/>
+			<enum name="off" value="0"/>
+		</attr>
+		<attr name="fixAspectRatio" format="boolean"/>
+		<attr name="aspectRatioX" format="integer"/>
+		<attr name="aspectRatioY" format="integer"/>
+		<attr name="imageResource" format="reference"/>
+	</declare-styleable>
+
+	<declare-styleable name="ucrop_UCropView">
+
+		<!--Crop image view-->
+		<attr name="ucrop_aspect_ratio_x" format="float"/>
+		<attr name="ucrop_aspect_ratio_y" format="float"/>
+
+		<!--Overlay view-->
+		<attr name="ucrop_show_oval_crop_frame" format="boolean"/>
+		<attr name="ucrop_oval_dimmed_layer" format="boolean"/>
+		<attr name="ucrop_dimmed_color" format="color"/>
+
+		<attr name="ucrop_grid_stroke_size" format="dimension"/>
+		<attr name="ucrop_grid_color" format="color"/>
+		<attr name="ucrop_grid_row_count" format="integer"/>
+		<attr name="ucrop_grid_column_count" format="integer"/>
+		<attr name="ucrop_show_grid" format="boolean"/>
+
+		<attr name="ucrop_frame_stroke_size" format="dimension"/>
+		<attr name="ucrop_frame_color" format="color"/>
+		<attr name="ucrop_show_frame" format="boolean"/>
+
+	</declare-styleable>
+
+	<declare-styleable name="ucrop_AspectRatioTextView">
+
+		<attr name="ucrop_artv_ratio_title" format="string"/>
+
+		<attr name="ucrop_artv_ratio_x" format="float"/>
+		<attr name="ucrop_artv_ratio_y" format="float"/>
+
+	</declare-styleable>
+
+	<style name="ucrop_ImageViewWidgetIcon">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:scaleType">fitCenter</item>
+		<item name="android:duplicateParentState">true</item>
+	</style>
+
+	<style name="ucrop_WrapperIconState">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:background">?attr/selectableItemBackground</item>
+		<item name="android:clickable">true</item>
+	</style>
+
+	<style name="ucrop_WrapperRotateButton">
+		<item name="android:layout_width">@dimen/ucrop_size_wrapper_rotate_button</item>
+		<item name="android:layout_height">@dimen/ucrop_size_wrapper_rotate_button</item>
+		<item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+		<item name="android:clickable">true</item>
+	</style>
+
+	<style name="ucrop_TextViewCropAspectRatio">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/ucrop_height_crop_aspect_ratio_text</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:duplicateParentState">true</item>
+		<item name="android:textColor">@color/colorPrimary</item>
+	</style>
+
+	<style name="ucrop_TextViewWidgetText">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:layout_marginTop">@dimen/ucrop_margit_top_widget_text</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">@dimen/ucrop_text_size_widget_text</item>
+	</style>
+
+	<!--gifview-->
+	<declare-styleable name="gifCommon">
+		<attr name="gif_src" format="reference" />
+		<attr name="decode_stream" format="boolean" />
+		<attr name="default_animation_time" format="integer" />
+	</declare-styleable>
+
+	<!--gif view start-->
+	<style name="Widget.GifView" parent="@android:style/Widget"/>
+	<declare-styleable name="GifView">
+		<attr name="gif" format="reference" />
+		<attr name="paused" format="boolean" />
+		<attr name="isLoop" format="boolean"/>  <!--是否循环-->
+	</declare-styleable>
+
+	<declare-styleable name="CustomTheme">
+		<attr name="gifViewStyle" format="reference" />
+	</declare-styleable>
+	<!--gif view end-->
+</resources>

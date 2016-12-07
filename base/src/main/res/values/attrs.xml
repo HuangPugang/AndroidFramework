@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="DesignToolbar">
+		<!--导航图标-->
+		<attr name="navigationLeftIcon" format="reference"/>
+		<!--导航文字-->
+		<attr name="navigationText" format="string"/>
+		<!--导航是否是按钮-->
+		<attr name="navigationIsButton" format="boolean"/>
+		<!--导航文字样式-->
+		<attr name="navigationTextAppearance" format="reference"/>
+		<!--导航按钮背景-->
+		<attr name="navigationBackground" format="reference"/>
+		<!--标题-->
+		<attr name="titleText" format="string"/>
+		<!--是否显示右边按钮-->
+		<attr name="showRightButton" format="boolean"/>
+		<!--右边按钮文字-->
+		<attr name="rightText" format="string"/>
+		<!--右边按钮图标-->
+		<attr name="rightIcon" format="reference"/>
+
+		<attr name="rightItem2" format="enum">
+			<enum name="isnull" value="0"/>
+			<enum name="only_has_msg" value="1"/>
+			<enum name="has_msg_and_setting" value="2"/>
+			<enum name="only_text" value="3"/>
+			<enum name="only_img" value="4"/>
+		</attr>
+	</declare-styleable>
+	<declare-styleable name="LoadingView">
+		<attr name="img_failed" format="reference"/>
+		<attr name="text_failed" format="string"/>
+		<!--是否默认显示错误信息-->
+		<attr name="default_error" format="boolean"/>
+
+		<attr name="text_failed_color" format="color"/>
+
+	</declare-styleable>
+
+
+	<declare-styleable name="RoundImageView">
+		<attr name="x_radius" format="dimension"/>
+		<attr name="y_radius" format="dimension"/>
+	</declare-styleable>
+
+
+	<!--设置布局相关的-->
+	<declare-styleable name="SettingLayout">
+		<!--标题-->
+		<attr name="title_text" format="string"/>
+		<!--标题颜色-->
+		<attr name="title_color" format="color"/>
+		<!--副标题-->
+		<attr name="sub_title_text" format="string"/>
+		<!--副标题颜色-->
+		<attr name="sub_title_color" format="color"/>
+		<!--副标题变色文字-->
+		<attr name="sub_title_click_text" format="string"/>
+		<!--副标题点击文字颜色-->
+		<attr name="sub_title_click_color" format="color"/>
+		<!--标题图标-->
+		<attr name="title_icon" format="reference"/>
+		<!--是否显示箭头-->
+		<attr name="is_show_arrow" format="boolean"/>
+		<!--是否显示短的下划线 默认显示-->
+		<attr name="is_show_view_short" format="boolean"/>
+		<!--是否显示长的下划线 默认不显示-->
+		<attr name="is_show_view_full" format="boolean"/>
+	</declare-styleable>
+
+
+	<declare-styleable name="AspectKeptContainer">
+		<attr name="src" format="reference"/>
+		<attr name="aspect" format="float"/>
+		<attr name="height_scale" format="float"/>
+	</declare-styleable>
+
+	<declare-styleable name="ViewPagerIndicator">
+		<!-- Style of the circle indicator. -->
+		<attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+	</declare-styleable>
+
+
+	<declare-styleable name="CirclePageIndicator">
+		<!-- Whether or not the indicators should be centered. -->
+		<attr name="centered" format="boolean"/>
+		<!-- Color of the filled circle that represents the current page. -->
+		<attr name="fillColor" format="color"/>
+		<!-- Color of the filled circles that represents pages. -->
+		<attr name="pageColor" format="color"/>
+		<!-- Orientation of the indicator. -->
+		<attr name="android:orientation"/>
+		<!-- Radius of the circles. This is also the spacing between circles. -->
+		<attr name="radius" format="dimension"/>
+		<!-- Whether or not the selected indicator snaps to the circles. -->
+		<attr name="snap" format="boolean"/>
+		<!-- Color of the open circles. -->
+		<attr name="strokeColor" format="color"/>
+		<!-- Width of the stroke used to draw the circles. -->
+		<attr name="strokeWidth" format="dimension"/>
+	</declare-styleable>
+
+
+	<declare-styleable name="PartClickableTextView">
+		<attr name="clickable_text_style" format="enum">
+			<enum name="underline" value="0x00" />
+			<enum name="url" value="0x01" />
+			<enum name="phone" value="0x02" />
+			<enum name="italic" value="0x03" />
+			<enum name="bold" value="0x04" />
+			<enum name="strikethrough" value="0x05" />
+			<enum name="none" value="0x06" />
+		</attr>
+		<attr name="clickable_text" format="reference|string" />
+		<attr name="clickable_text_color" format="reference|color" />
+		<attr name="clickable_text_size" format="reference|dimension" />
+		<attr name="clickable_value" format="string|reference"></attr>
+		<attr name="ispart_text_clickable" format="boolean"></attr>
+	</declare-styleable>
+
+	<declare-styleable name="ExpandableLayout">
+		<attr name="el_duration" format="integer" />
+		<attr name="el_expanded" format="boolean" />
+		<attr name="el_translate_children" format="boolean" />
+		<attr name="layout_expandable" format="boolean" />
+		<attr name="android:orientation"/>
+	</declare-styleable>
+</resources>

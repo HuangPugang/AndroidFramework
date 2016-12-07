@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:orientation="vertical">
+
+    <org.hpdroid.base.view.DesignToolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolbarStyleBlack"
+        app:rightItem2="isnull"
+        app:titleText="相册">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_large"/>
+
+        </RelativeLayout>
+
+    </org.hpdroid.base.view.DesignToolbar>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#E0111111"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_margin_half"
+            android:text="选择"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_large"/>
+
+        <ImageButton
+            android:id="@+id/check_image"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@id/tv_select"
+            android:background="@null"
+            android:scaleType="center"
+            android:src="@drawable/ck_style"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

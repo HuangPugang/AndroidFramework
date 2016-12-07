@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/id_action_clip"
+        app:showAsAction="always"
+        android:title="保存"
+        />
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+
+	<style name="AppThemeBlack" parent="BaseThemeBlack">
+		<item name="android:windowTranslucentStatus">false</item>
+		<item name="android:windowTranslucentNavigation">false</item>
+	</style>
+
+	<style name="AppThemeWhite" parent="BaseThemeWhite">
+		<item name="android:windowTranslucentStatus">false</item>
+		<item name="android:windowTranslucentNavigation">false</item>
+	</style>
+</resources>

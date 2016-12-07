@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#31c27c</color>
+	<color name="colorPrimaryDark">#31c27c</color>
+	<color name="colorAccent">#31c27c</color>
+	<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+	<color name="clear">#00000000</color>
+	<color name="white_light">#ccffffff</color>
+
+	<color name="toolbar_black_color">#363539</color>
+
+	<color name="toolbar_white_color">@color/white</color>
+
+	<color name="black_alpha_65">#A6000000</color>
+
+
+
+	<color name="button_pressed_bg">#20000000</color>
+	<color name="button_enable_text">#44ffffff</color>
+	<color name="click_shade">#15000000</color> <!-- 点击效果叠加 -->
+
+	<color name="main_color">#31c27c</color>
+
+	<color name="bg_main">#F8F8F8</color>
+
+	<color name="selected_color">#20000000</color>
+
+
+	<color name="main_color_alpha80">#cc31c27c</color>
+
+	<color name="color_btn_enable">#dfdfdf</color>
+
+	<color name="color_rbtn_enable">#F2F2F2</color>
+
+	<color name="divider_color">#11000000</color>
+
+
+	<color name="text_title">#333333</color>
+	<color name="text_sub_title">#666666</color>
+
+
+	<color name="text_black_dark">@color/black</color>
+	<color name="text_black_normal">#333333</color>
+	<color name="text_black_light">#444444</color>
+
+
+	<color name="text_gray_dark">#666666</color>
+	<color name="text_gray_normal">#7a7a7a</color>
+	<color name="text_gray_light">#b8b8b8</color>
+	<color name="text_gray_thin_light">#999999</color>
+	<!--<color name="text_gray_light">#999999</color>-->
+
+
+	<color name="text_red">#ff342f</color>
+
+	<color name="line_light">#E1E2E3</color>
+
+	<color name="text_6B8AA8">#6B8AA8</color>
+
+	<color name="text_DCDCDC">#DCDCDC</color>
+
+	<color name="possible_result_points">#c0ffff00</color> <!-- 二维码中闪烁的点颜色-->
+	<color name="viewfinder_mask">#60000000</color>
+	<color name="result_view">#b0000000</color>
+	<color name="serial_board_color">#979797</color>
+
+	<color name="background_gray">#F0F0F0</color>
+
+</resources>

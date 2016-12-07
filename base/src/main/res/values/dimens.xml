@@ -1,0 +1,64 @@
+<resources>
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="activity_margin_double">32dp</dimen>
+	<dimen name="activity_margin">16dp</dimen>
+	<dimen name="activity_padding_small_xx">12dp</dimen>
+	<dimen name="activity_margin_half">8dp</dimen>
+
+	<!-- font sizes -->
+	<dimen name="font_huge_xxx">32sp</dimen>
+	<dimen name="font_huge_xx">30sp</dimen>
+	<dimen name="font_huge_x">28sp</dimen>
+	<dimen name="font_huge">26sp</dimen>
+	<dimen name="font_large_xxx">24sp</dimen>
+	<dimen name="font_large_xx">22sp</dimen>
+	<dimen name="font_large_x">20sp</dimen>
+	<dimen name="font_large">18sp</dimen>
+	<dimen name="font_normal_xxx">17sp</dimen>
+	<dimen name="font_normal_xx">16sp</dimen>
+	<dimen name="font_normal_x">15sp</dimen>
+	<dimen name="font_normal">14sp</dimen>
+	<dimen name="font_small">12sp</dimen>
+	<dimen name="font_small_x">10sp</dimen>
+	<dimen name="font_small_xx">8sp</dimen>
+	<dimen name="font_small_xxx">6sp</dimen>
+
+
+	<dimen name="padding_small">3dp</dimen>
+	<dimen name="padding_normal">5dp</dimen>
+
+
+	<dimen name="divider_height">0.5dp</dimen>
+	<dimen name="divider_height_large">1dp</dimen>
+	<dimen name="elevation_height">3dp</dimen>
+
+
+	<dimen name="height_normal">48dp</dimen>
+	<dimen name="height_large">60dp</dimen>
+
+	<dimen name="empty_magin_top">110dp</dimen>
+	<dimen name="empty_pading_drawable">22dp</dimen>
+	<dimen name="banner_login_btn_magin_top">73dp</dimen>
+	<dimen name="banner_login_btn_padding_left_right">40dp</dimen>
+
+	<!--uCrop Activity-->
+	<dimen name="ucrop_padding_crop_frame">16dp</dimen>
+	<dimen name="ucrop_size_dot_scale_text_view">8dp</dimen>
+	<dimen name="ucrop_height_horizontal_wheel_progress_line">20dp</dimen>
+	<dimen name="ucrop_width_horizontal_wheel_progress_line">2dp</dimen>
+	<dimen name="ucrop_margin_horizontal_wheel_progress_line">10dp</dimen>
+	<dimen name="ucrop_height_wrapper_controls">64dp</dimen>
+	<dimen name="ucrop_height_wrapper_states">72dp</dimen>
+	<dimen name="ucrop_height_divider_shadow">3dp</dimen>
+	<dimen name="ucrop_text_size_widget_text">13sp</dimen>
+	<dimen name="ucrop_margit_top_widget_text">10sp</dimen>
+	<dimen name="ucrop_size_wrapper_rotate_button">50dp</dimen>
+	<dimen name="ucrop_height_crop_aspect_ratio_text">40dp</dimen>
+
+	<!--Crop View-->
+	<dimen name="ucrop_default_crop_grid_stoke_width">1dp</dimen>
+	<dimen name="ucrop_default_crop_frame_stoke_width">1dp</dimen>
+
+</resources>

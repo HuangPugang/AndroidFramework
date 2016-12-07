@@ -1,0 +1,29 @@
+group 'huanxiao_android_lib'
+version '1.0'
+def artifactId = "android_router"
+
+apply plugin: 'maven'
+
+//打包源代码
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.srcDirs
+}
+
+artifacts {
+    archives sourcesJar
+}
+
+//上传到nexus
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://nexus.59store.com:8081/nexus/content/repositories/Android-Releases/") {
+                authentication(userName: "deploy", password: "59rootDeploy")
+            }
+            pom.version = "$project.version"
+            pom.artifactId = "$artifactId"
+            pom.groupId = "$project.group"
+        }
+    }
+}

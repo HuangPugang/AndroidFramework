@@ -1,0 +1,14 @@
+<resources>
+
+	<style name="AppThemeBlack" parent="BaseThemeBlack">
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+		<item name="android:statusBarColor">@color/toolbar_black_color</item>
+	</style>
+
+
+	<style name="AppThemeWhite" parent="BaseThemeWhite">
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="android:statusBarColor">@color/toolbar_white_color</item>
+	</style>
+</resources>

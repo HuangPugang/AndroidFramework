@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+	<org.hpdroid.base.view.AspectKeptContainer
+		android:id="@+id/viewPagerContainer"
+		android:layout_width="match_parent"
+		android:layout_height="120dp"
+		android:background="@color/white">
+
+		<org.hpdroid.base.view.LoopViewPager
+			android:id="@+id/viewPager"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@android:color/transparent">
+		</org.hpdroid.base.view.LoopViewPager>
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="15dp"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="5dp">
+			<!--android:background="@drawable/indicator_bg"-->
+			<org.hpdroid.base.view.CirclePageIndicator
+				android:id="@+id/indicator"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:clickable="false"
+				android:focusable="false"
+				android:paddingLeft="10dp"
+				android:paddingRight="7dp"
+				android:paddingTop="3dp"
+				app:fillColor="@color/white"
+				app:pageColor="@android:color/transparent"
+				app:strokeColor="@color/white"
+				app:strokeWidth="1dp"/>
+		</RelativeLayout>
+
+		<TextView
+			android:id="@+id/tv_error"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text=""
+			android:textColor="@color/text_gray_normal"
+			android:textSize="15sp"/>
+	</org.hpdroid.base.view.AspectKeptContainer>
+
+</FrameLayout>
