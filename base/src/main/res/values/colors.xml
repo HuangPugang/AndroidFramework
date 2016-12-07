@@ -67,4 +67,10 @@
 
 	<color name="background_gray">#F0F0F0</color>
 
+
+
+	<color name="border_red_color">#f54437</color>
+
+	<color name="dorm_text_gry_color">#999999</color>
+
 </resources>
