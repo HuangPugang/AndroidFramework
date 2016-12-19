@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
@@ -33,4 +33,13 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':util')
     compile project(':router')
+}
+
+publish {
+    userOrg = 'juliet888'
+    groupId = 'com.juliet'
+    artifactId = 'common'
+    publishVersion = '1.0.0'
+    desc = 'Oh hi, this is a nice description for a project, right?'
+    website = 'https://github.com/marryperry/Common'
 }
